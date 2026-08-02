@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background: #f0f8ff;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+
+main {
+  max-width: 1400px;
+  margin: auto;
+  padding: 40px;
+}
+
+main h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.products-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.product-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+  position: relative;
+  display:flex;
+  flex-direction: column;
+}
+
+.product-image {
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-image img {
+  max-width: 100%;
+  max-height: 180px;
+  object-fit: contain;
+}
+
+.product-title {
+  font-size: 20px;
+  margin: 15px 0;
+  min-height: 80px;
+  overflow: hidden;
+}
+
+.product-price {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.new-price {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.old-price {
+  color: gray;
+  text-decoration: line-through blue 3px;
+}
+
+.discount {
+  color: green;
+  font-weight: bold;
+}
+
+.product-category {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: orange;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 13px;
+}
+
+.product-rating {
+  margin: 10px 0;
+}
+
+.product-rating i {
+  color: #ff9800;
+}
+
+.add-to-cart {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  background: blue;
+  color: white;
+  font-size: 17px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: auto;
+}
+
+.add-to-cart:hover {
+  background: rgb(0, 0, 180);
+}
