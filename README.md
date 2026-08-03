@@ -31,3 +31,8 @@ A responsive and interactive **E-Commerce Products Page** developed using **HTML
 * Building responsive layouts with HTML and CSS
 * Improving frontend development skills through API integration
 
+## 👩‍💻 Author
+
+**Vanshika Sharma**
+
+GitHub: https://github.com/vanshikasharma21
